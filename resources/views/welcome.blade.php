@@ -13,6 +13,7 @@
     </head>
     <body>
         <div  id="app">
+            <h2 class="text-center">Laravel Vue js Infinite Scroll </h2>
             <infinite-scroll></infinite-scroll>
         </div>
         <script src="{{asset('js/app.js')}}"></script>
