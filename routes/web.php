@@ -13,3 +13,10 @@
 
 Route::view('/', 'welcome');
 Route::get('post', 'PostController@get_all_post');
+Route::get('all-user', 'PostController@all_user');
+Route::get('search-user', 'PostController@all_user_serach')->name('search');
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
